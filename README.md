@@ -1,10 +1,10 @@
 # Azure20180912 - 雲端應用與導入實務
 
-投影片
+### 投影片
 待補
 
 ---
-
+### 相關連結
 Azure Portal
 https://portal.azure.com
 
@@ -19,6 +19,3 @@ https://azure.microsoft.com/zh-tw/pricing/calculator/
 
 Azure 架構範例
 https://azure.microsoft.com/en-us/solutions/architecture/
-
-Azure Web App A/B Testing
-https://docs.microsoft.com/en-us/azure/app-service-web/app-service-web-test-in-production-get-start
