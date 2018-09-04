@@ -5,6 +5,9 @@
 
 ---
 ### 相關連結
+使用 Microsoft Azure Pass 啟用 Microsoft Azure 訂閱帳戶
+https://github.com/ericsk/microsoft-azure-recipes/blob/master/chapter01/02_azurepass.md
+
 Azure Portal
 https://portal.azure.com
 
