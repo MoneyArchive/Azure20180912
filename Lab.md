@@ -1,3 +1,11 @@
+
+
+
+
+
+
+
+
 # Lab
 
 ## 01. 管理訂閱與資源群組
@@ -21,6 +29,22 @@
    ![Role and User](https://i.imgur.com/cVOWI9D.png)
 
 5. 完成後，該使用者即可依照所被指派之權限處理相關事務
+
+### b. 資源群組
+
+1. 從 Azure Portal 選擇資源群組，並點選: 新增
+
+   ![Resource Group](https://i.imgur.com/iFR4ov2.png)
+
+2.  填寫名稱、訂用帳戶與選擇資源群組欲置放所在之資料中心
+
+   ![New](https://i.imgur.com/mxzMEW4.png)
+
+3.  完成後，點進去會如下圖所示
+
+   ![Complete](https://i.imgur.com/l5SRMjQ.png) 
+
+### c. 建立資源鎖定
 
 ## 01. 建立儲存體帳戶
 
