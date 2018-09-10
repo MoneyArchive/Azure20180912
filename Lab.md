@@ -1,10 +1,26 @@
 # Lab
 
-## 01. 管理訂閱
+## 01. 管理訂閱與資源群組
 
 ### a. 加入使用者與設定權限
 
+1. 選擇要加入使用者的訂用帳戶
 
+   ![Select Subscription](https://i.imgur.com/LOr4rHw.png)
+
+2. 點選: 存取控制(IAM)
+
+   ![IAM](https://i.imgur.com/ezGCMvR.png)
+
+3.  點選: 新增
+
+   ![New](https://i.imgur.com/JVjIMDn.png)
+
+4.  選擇欲指派之腳色與人員
+
+   ![Role and User](https://i.imgur.com/cVOWI9D.png)
+
+5. 完成後，該使用者即可依照所被指派之權限處理相關事務
 
 ## 01. 建立儲存體帳戶
 
