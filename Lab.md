@@ -45,11 +45,17 @@
 2. 當被觸發時會如下顯示
     ![Try Delete](https://i.imgur.com/tgR98B4.png)
 
-## 01. 建立儲存體帳戶
+## 01. 儲存體
 
-## 02. 建立 VM 與相關設定
+### a. 建立儲存體帳戶
 
-### a. 建立 VM
+### b. 使用 CDN
+
+### c. 使用儲存體來架設靜態網站
+
+## 02. 虛擬機器與相關設定
+
+### a. 建立虛擬機器
 
 1. 於 Azure Portal 選擇建立資源，以 Windows Server 2016 Datacenter 為範例
 
