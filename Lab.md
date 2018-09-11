@@ -49,6 +49,15 @@
 
 ### a. 建立儲存體帳戶
 
+1. 點選儲存體帳戶後，點擊新增
+    ![Storage](https://i.imgur.com/jQdMFZi.png)
+
+2. 填寫相關資訊與設定
+    ![New](https://i.imgur.com/NOh9poG.png)
+
+3. 點選建立即可完成
+    ![Complete](https://i.imgur.com/IuRom6z.png)
+
 ### b. 使用 CDN
 
 ### c. 使用儲存體來架設靜態網站
