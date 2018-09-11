@@ -27,6 +27,9 @@ https://azure.microsoft.com/zh-tw/pricing/calculator/
 Azure 架構範例
 https://azure.microsoft.com/en-us/solutions/architecture/
 
+Azure Storage Explorer
+https://azure.microsoft.com/en-us/features/storage-explorer/
+
 ## 參考教學
 Azure 小學堂
 https://github.com/Microsoft-DXTW/AzureFundamentals
