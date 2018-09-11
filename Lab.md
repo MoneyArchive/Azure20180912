@@ -207,5 +207,25 @@
 
 ## 03. VM 擴展集
 
+1. 新增虛擬機器擴展集資源
+    ![NewResource](https://i.imgur.com/GTEKNEo.png)
+
+2. 填寫設定資訊
+    ![FillInfo](https://i.imgur.com/XU3LsGS.png)
+
+3. 檢視結果
+    ![Result](https://i.imgur.com/gayevb8.png)
+
+4. 擴充個體
+    i. 
+        ![AddInstance](https://i.imgur.com/gHQSEQo.png)
+    ii. 
+        ![AddInstance](https://i.imgur.com/m8Rb5Wd.png)
+    iii. 
+        ![AddInstance](https://i.imgur.com/aJ7X1z3.png)
+
+5. 減少個體
+    ![DelInstance](https://i.imgur.com/JazDkHW.png)
+
 
 
