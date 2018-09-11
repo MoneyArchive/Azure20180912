@@ -115,6 +115,8 @@
 > 文件名稱會區分大小寫，因此必須完全相符儲存體中的檔案名稱。
 > 也可自訂網域
 
+### e. Azure File
+
 ## 02. 虛擬機器與相關設定
 
 ### a. 建立虛擬機器
@@ -141,7 +143,49 @@
 
 6. 等待 VM 建立完成
 
-## 03. VM 縮放
+### b. 網路設定
+
+1. 點選網路
+    ![Network](https://i.imgur.com/1z8PEeL.png)
+
+2. 設定 NSG
+    ![NSG](https://i.imgur.com/kxxT1fe.png)
+
+3. 設定 DNS Name
+    ![DNS Name](https://i.imgur.com/GxTfLHN.png)
+
+4. 遠端連線至主機
+ 
+### c. 磁碟設定
+
+1. 新增資料磁碟
+    ![NewDisk](https://i.imgur.com/JaUYoYK.png)
+    i. 建立受控磁碟
+        ![NewManagedDisk](https://i.imgur.com/NUWwH1M.png)
+
+2. 進入作業系統設定  
+ 
+### d. 其他設定
+
+1. 延伸模組
+    ![clipboard](https://i.imgur.com/wia3DrO.png)
+
+2. 自動關機、自動開機
+    ![AutoShutdown](https://i.imgur.com/S0IwuTT.png)
+
+3. 備份
+    ![Backup](https://i.imgur.com/WGb4qqU.png)
+
+4. 災害復原
+    ![Site Recovery](https://i.imgur.com/fAWr6GF.png)
+
+6. 更新管理
+    ![Update](https://i.imgur.com/ABDexkM.png)
+
+6. 圖表
+    ![Diagram](https://i.imgur.com/VT932et.png)
+
+## 03. VM 擴展集
 
 
 
