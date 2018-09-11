@@ -58,9 +58,44 @@
 3. 點選建立即可完成
     ![Complete](https://i.imgur.com/IuRom6z.png)
 
-### b. 使用 CDN
+### b. 上傳檔案
 
-### c. 使用儲存體來架設靜態網站
+1. 安裝 Microsoft Azure Storage Explorer 並開啟，連結：[Azure Storage Explorer](https://azure.microsoft.com/en-us/features/storage-explorer/)
+    ![Microsoft Azure Storage Explorer](https://i.imgur.com/UmhSqNN.png)
+
+2. 連結至 Storage Account
+    i. 透過 Microsoft Account 登入
+        ![Microsoft Account](https://i.imgur.com/nNjEaSz.png)
+
+    ii. 透過 Storage Account Name 與 Key
+        ![Storage Account](https://i.imgur.com/eQ5GQeg.png)
+
+3. 連結至 Storage 後，展開到 Blob Container 並新建一個 Container
+    ![New Container](https://i.imgur.com/Ymc2ZuP.png)
+
+4. 透過介面上傳檔案 (Demo.jpg)
+    ![Upload](https://i.imgur.com/mBzr5yv.png)
+    ![Upload Complete](https://i.imgur.com/72yoNyA.png)
+
+5. 透過網址可以檢視檔案
+    結構：https://{StorageAccountName}.blob.core.windows.net/{ContainerName}/{BlobName}
+    連結：https://test20180912.blob.core.windows.net/images/Demo.jpg
+    ![Image](https://i.imgur.com/s47HIF8.png)
+    > 注意 Access Level 或是使用 S.H.A.
+
+### c. 使用 CDN
+
+1. 建立 Azure CDN 並與 Storage 連結
+    ![CDN](https://i.imgur.com/zxuxUQA.png)
+
+2. 檢視結果
+    ![CdnResult](https://i.imgur.com/H8SjXv8.png)
+
+3. 比較差異，使用：<https://www.cdnplanet.com/tools/cdnperfcheck>
+    ![StorageTest](https://i.imgur.com/ocxO8i1.png)
+    ![CdnTest](https://i.imgur.com/D0zg3FG.png)
+
+### d. 使用儲存體來架設靜態網站
 
 ## 02. 虛擬機器與相關設定
 
@@ -68,7 +103,7 @@
 
 1. 於 Azure Portal 選擇建立資源，以 Windows Server 2016 Datacenter 為範例
 
-![New Resource](https://i.imgur.com/Od2IusO.png)
+    ![New Resource](https://i.imgur.com/Od2IusO.png)
 
 2. 填寫基本資訊
 
