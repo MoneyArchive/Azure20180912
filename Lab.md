@@ -95,6 +95,7 @@
 3. 比較差異，使用：<https://www.cdnplanet.com/tools/cdnperfcheck>
     ![StorageTest](https://i.imgur.com/ocxO8i1.png)
     ![CdnTest](https://i.imgur.com/D0zg3FG.png)
+> 也可以用：<https://tools.keycdn.com/speed>
 
 ### d. 使用儲存體來架設靜態網站
 
