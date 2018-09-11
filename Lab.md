@@ -86,6 +86,7 @@
 ### c. 使用 CDN
 
 1. 建立 Azure CDN 並與 Storage 連結
+
     ![CDN](https://i.imgur.com/zxuxUQA.png)
 
 2. 檢視結果
@@ -116,6 +117,25 @@
 > 也可自訂網域
 
 ### e. Azure File
+
+1. 建立檔案共用
+    ![NewAzureFile](https://i.imgur.com/mYwwnAL.png)
+
+2. 檢視共用資訊與設定
+    ![ViewInfo](https://i.imgur.com/xIeucqt.png)
+
+3. 連接網路磁碟機
+4. 加入檔案
+    ``` bash
+      cd Z:
+      mkdir 20180912
+      echo Hello-World> test.txt
+      type test.txt
+    ```
+5. 使用 Azure Portal 與 Azure Storage Explorer 檢視檔案
+    ![AzurePortalView](https://i.imgur.com/PseXtdT.png)
+    ![AzureStorageExplorerView](https://i.imgur.com/hP6P71g.png)
+
 
 ## 02. 虛擬機器與相關設定
 
