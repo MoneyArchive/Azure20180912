@@ -97,6 +97,24 @@
 
 ### d. 使用儲存體來架設靜態網站
 
+1. 開啟靜態網站功能
+    ![EnableStaticSite](https://i.imgur.com/MG9hUgb.png)
+
+2. 同時間 Storage 會自動新增兩個 Container
+    ![WebContainer](https://i.imgur.com/epQXssf.png)
+
+3. 將靜態網站原始碼上傳至 $web
+    ![UploadHtml](https://i.imgur.com/W680Buw.png)
+
+4. 設定靜態網站進入點等相關資訊
+    ![EntryPoint](https://i.imgur.com/gPuwddJ.png)
+
+5. 開啟主要端點連結檢視成果
+    ![Result](https://i.imgur.com/kzjhPS9.png)
+
+> 文件名稱會區分大小寫，因此必須完全相符儲存體中的檔案名稱。
+> 也可自訂網域
+
 ## 02. 虛擬機器與相關設定
 
 ### a. 建立虛擬機器
